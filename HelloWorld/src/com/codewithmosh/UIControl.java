@@ -3,9 +3,9 @@ package com.codewithmosh;
 public abstract class UIControl {
     private boolean isEnabled = true;
 
-//    public UIControl(boolean isEnabled) {
-//        this.isEnabled = isEnabled;
-//    }
+    public UIControl(boolean isEnabled) {
+        this.isEnabled = isEnabled;
+    }
 
     public abstract void render();
 
