@@ -1,6 +1,6 @@
 package com.codewithmosh;
 
-public class TaxCalculator2018 implements TaxCalculator {
+public class TaxCalculator2018 extends AbstractTaxCalculator {
     private double taxableIncome;
 
     public TaxCalculator2018(double taxableIncome) {
